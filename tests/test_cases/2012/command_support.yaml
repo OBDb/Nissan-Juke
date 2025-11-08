@@ -99,6 +99,8 @@ supported_commands_by_ecu:
   "7E1":
   - 7E1.2101
   - 7E1.2103
+  - 7E1.7E9.2101
+  - 7E1.7E9.2103
 unsupported_commands_by_ecu:
   "707":
   - 707.727.220103:NISSAN_TURN_SIGNAL_LEFT,NISSAN_TURN_SIGNAL_RIGHT
@@ -187,6 +189,3 @@ unsupported_commands_by_ecu:
   - 7E0.7E8.221186
   - 7E0.7E8.221266
   - 7E0.7E8.2212A1
-  "7E1":
-  - 7E1.7E9.2101
-  - 7E1.7E9.2103
