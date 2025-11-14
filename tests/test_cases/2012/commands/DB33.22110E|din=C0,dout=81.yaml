@@ -1,0 +1,5 @@
+command_id: DB33.22110E|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_MAP_V: 1.94
+  response: 7E80462110E61
