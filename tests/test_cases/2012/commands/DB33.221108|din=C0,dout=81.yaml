@@ -1,0 +1,17 @@
+command_id: DB33.221108|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_SPARKADV_3: 93
+  response: 7E8046211085D
+- expected_values:
+    NI_SPARKADV_3: 94
+  response: 7E8046211085E
+- expected_values:
+    NI_SPARKADV_3: 95
+  response: 7E8046211085F
+- expected_values:
+    NI_SPARKADV_3: 97
+  response: '7E80462110861'
+- expected_values:
+    NI_SPARKADV_3: 107
+  response: 7E8046211086B

@@ -1,0 +1,26 @@
+command_id: DB33.221101|din=C0,dout=81
+test_cases:
+- expected_values:
+    NI_ECT: 12
+  response: 7E8046211013E
+- expected_values:
+    NI_ECT: 13
+  response: 7E8046211013F
+- expected_values:
+    NI_ECT: 20
+  response: '7E80462110146'
+- expected_values:
+    NI_ECT: 24
+  response: 7E8046211014A
+- expected_values:
+    NI_ECT: 29
+  response: 7E8046211014F
+- expected_values:
+    NI_ECT: 37
+  response: '7E80462110157'
+- expected_values:
+    NI_ECT: 60
+  response: 7E8046211016E
+- expected_values:
+    NI_ECT: 88
+  response: 7E8046211018A
