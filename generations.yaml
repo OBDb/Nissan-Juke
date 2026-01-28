@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Nissan_Juke"
+
 generations:
   - name: "First Generation (F15)"
     start_year: 2011
