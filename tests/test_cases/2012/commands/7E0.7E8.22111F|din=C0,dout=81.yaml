@@ -1,23 +1,23 @@
-command_id: DB33.22111F|din=C0,dout=81
+command_id: 7E0.7E8.22111F|din=C0,dout=81
 test_cases:
 - expected_values:
-    NI_EOT: 18
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 18
   response: 7E80462111F44
 - expected_values:
-    NI_EOT: 21
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 21
   response: 7E80462111F47
 - expected_values:
-    NI_EOT: 23
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 23
   response: 7E80462111F49
 - expected_values:
-    NI_EOT: 24
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 24
   response: 7E80462111F4A
 - expected_values:
-    NI_EOT: 27
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 27
   response: 7E80462111F4D
 - expected_values:
-    NI_EOT: 36
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 36
   response: 7E80462111F56
 - expected_values:
-    NI_EOT: 46
+    NISSAN_VARIABLE_VLV_TIM_OIL_T: 46
   response: 7E80462111F60

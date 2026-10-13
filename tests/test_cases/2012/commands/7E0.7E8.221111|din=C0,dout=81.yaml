@@ -1,14 +1,14 @@
-command_id: DB33.221111|din=C0,dout=81
+command_id: 7E0.7E8.221111|din=C0,dout=81
 test_cases:
 - expected_values:
-    NI_FUEL_T2: 11
+    NISSAN_FUEL_T: 11
   response: 7E8046211113D
 - expected_values:
-    NI_FUEL_T2: 12
+    NISSAN_FUEL_T: 12
   response: 7E8046211113E
 - expected_values:
-    NI_FUEL_T2: 13
+    NISSAN_FUEL_T: 13
   response: 7E8046211113F
 - expected_values:
-    NI_FUEL_T2: 15
+    NISSAN_FUEL_T: 15
   response: '7E80462111141'
