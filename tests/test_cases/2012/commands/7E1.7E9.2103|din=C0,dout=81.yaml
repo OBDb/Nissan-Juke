@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.2103|din=C0,dout=81
+test_cases:
+- expected_values:
+    NISSAN_TRANS_ATF: 76038
+  response: '7E906610300012906'
+- expected_values:
+    NISSAN_TRANS_ATF: 76045
+  response: 7E90661030001290D
