@@ -1,26 +1,26 @@
 command_id: 7E0.7E8.221103|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_VPWR_ECM: 13.68
+    JUKE_VPWR_ECM: 13.68
   response: 7E804621103AB
 - expected_values:
-    NISSAN_VPWR_ECM: 14
+    JUKE_VPWR_ECM: 14
   response: 7E804621103AF
 - expected_values:
-    NISSAN_VPWR_ECM: 14.08
+    JUKE_VPWR_ECM: 14.08
   response: 7E804621103B0
 - expected_values:
-    NISSAN_VPWR_ECM: 14.16
+    JUKE_VPWR_ECM: 14.16
   response: 7E804621103B1
 - expected_values:
-    NISSAN_VPWR_ECM: 14.24
+    JUKE_VPWR_ECM: 14.24
   response: 7E804621103B2
 - expected_values:
-    NISSAN_VPWR_ECM: 14.4
+    JUKE_VPWR_ECM: 14.4
   response: 7E804621103B4
 - expected_values:
-    NISSAN_VPWR_ECM: 14.48
+    JUKE_VPWR_ECM: 14.48
   response: 7E804621103B5
 - expected_values:
-    NISSAN_VPWR_ECM: 14.56
+    JUKE_VPWR_ECM: 14.56
   response: 7E804621103B6

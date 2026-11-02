@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.221111|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_FUEL_T: 11
+    JUKE_FUEL_T_7E0: 11
   response: 7E8046211113D
 - expected_values:
-    NISSAN_FUEL_T: 12
+    JUKE_FUEL_T_7E0: 12
   response: 7E8046211113E
 - expected_values:
-    NISSAN_FUEL_T: 13
+    JUKE_FUEL_T_7E0: 13
   response: 7E8046211113F
 - expected_values:
-    NISSAN_FUEL_T: 15
+    JUKE_FUEL_T_7E0: 15
   response: '7E80462111141'

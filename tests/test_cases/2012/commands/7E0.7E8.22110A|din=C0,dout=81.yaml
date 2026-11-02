@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22110A|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_IGN_TIM_ADVANCE: 110
+    JUKE_IGN_TIM_ADVANCE: 110
   response: 7E80462110A00
 - expected_values:
-    NISSAN_IGN_TIM_ADVANCE: 17
+    JUKE_IGN_TIM_ADVANCE: 17
   response: 7E80462110A5D
 - expected_values:
-    NISSAN_IGN_TIM_ADVANCE: 16
+    JUKE_IGN_TIM_ADVANCE: 16
   response: 7E80462110A5E
 - expected_values:
-    NISSAN_IGN_TIM_ADVANCE: 15
+    JUKE_IGN_TIM_ADVANCE: 15
   response: 7E80462110A5F
