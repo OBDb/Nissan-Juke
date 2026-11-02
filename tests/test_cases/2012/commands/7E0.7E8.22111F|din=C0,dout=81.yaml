@@ -1,23 +1,23 @@
 command_id: 7E0.7E8.22111F|din=C0,dout=81
 test_cases:
 - expected_values:
-    NISSAN_VARIABLE_VLV_TIM_OIL_T: 18
+    JUKE_VARIABLE_VLV_TIM_OIL_T: 18
   response: 7E80462111F44
 - expected_values:
-    NISSAN_VARIABLE_VLV_TIM_OIL_T: 21
+    JUKE_VARIABLE_VLV_TIM_OIL_T: 21
   response: 7E80462111F47
 - expected_values:
-    NISSAN_VARIABLE_VLV_TIM_OIL_T: 23
+    JUKE_VARIABLE_VLV_TIM_OIL_T: 23
   response: 7E80462111F49
 - expected_values:
-    NISSAN_VARIABLE_VLV_TIM_OIL_T: 24
+    JUKE_VARIABLE_VLV_TIM_OIL_T: 24
   response: 7E80462111F4A
 - expected_values:
-    NISSAN_VARIABLE_VLV_TIM_OIL_T: 27
+    JUKE_VARIABLE_VLV_TIM_OIL_T: 27
   response: 7E80462111F4D
 - expected_values:
-    NISSAN_VARIABLE_VLV_TIM_OIL_T: 36
+    JUKE_VARIABLE_VLV_TIM_OIL_T: 36
   response: 7E80462111F56
 - expected_values:
-    NISSAN_VARIABLE_VLV_TIM_OIL_T: 46
+    JUKE_VARIABLE_VLV_TIM_OIL_T: 46
   response: 7E80462111F60
