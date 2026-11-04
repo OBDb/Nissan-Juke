@@ -29,7 +29,7 @@
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"21": "01"}, "freq": 30, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
-    {"id": "JUKE_ODO", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+    {"id": "JUKE_ODO", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "miles" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "743", "rax": "763", "fcm1": true, "dbg": true, "cmd": {"22": "0E00"}, "freq": 0.25, "filter": { "from": 2020 },
   "signals": [
