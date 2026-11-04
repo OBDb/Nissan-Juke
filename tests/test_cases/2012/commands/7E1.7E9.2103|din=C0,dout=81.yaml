@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     JUKE_CVT_DETER: 76045
   response: 7E90661030001290D
+- expected_values:
+    JUKE_CVT_DETER: 76228
+  response: 7E9066103000129C4
