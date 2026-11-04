@@ -1,0 +1,5 @@
+command_id: 740.760.221103|fc=1
+test_cases:
+- expected_values:
+    JUKE_ABS_FR_VSS: 0
+  response: '7600462110300'

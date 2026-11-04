@@ -1,33 +1,33 @@
 { "commands": [
-{ "hdr": "740", "rax": "760", "fcm1": true, "dbg": true, "cmd": {"22": "1102"}, "freq": 0.25,
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "1102"}, "freq": 0.25, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_ABS_FL_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "dbg": true, "cmd": {"22": "1103"}, "freq": 0.25,
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "1103"}, "freq": 0.25, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_ABS_FR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "dbg": true, "cmd": {"22": "1104"}, "freq": 0.25,
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "1104"}, "freq": 0.25, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_ABS_RL_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "dbg": true, "cmd": {"22": "1105"}, "freq": 0.25,
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "1105"}, "freq": 0.25, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_ABS_RR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "740", "rax": "760", "dbg": true, "cmd": {"22": "1115"}, "freq": 0.25,
+{ "hdr": "740", "rax": "760", "cmd": {"22": "1115"}, "freq": 0.25, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_APP", "path": "Control", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "740", "rax": "760", "fcm1": true, "dbg": true, "cmd": {"22": "1208"}, "freq": 0.25,
+{ "hdr": "740", "rax": "760", "fcm1": true, "cmd": {"22": "1208"}, "freq": 0.25, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_ABS_STEER_ANG", "path": "Control", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "degrees" }, "name": "Anti-lock brake steering angle"}
   ]},
-{ "hdr": "740", "rax": "760", "dbg": true, "cmd": {"22": "1209"}, "freq": 0.25,
+{ "hdr": "740", "rax": "760", "cmd": {"22": "1209"}, "freq": 0.25, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_BRAKE_MC_P", "path": "Control", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Brake master cylinder pressure count"}
   ]},
-{ "hdr": "743", "rax": "763", "fcm1": true, "dbg": true, "cmd": {"21": "01"}, "freq": 30,
+{ "hdr": "743", "rax": "763", "fcm1": true, "cmd": {"21": "01"}, "freq": 30, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_ODO", "path": "Trips", "fmt": {"bix": 56, "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
   ]},
@@ -240,7 +240,7 @@
   "signals": [
     {"id": "JUKE_VARIABLE_VLV_TIM_OIL_T", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Variable valve timing oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1123"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1123"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_F_RAT_ADJ", "path": "Engine", "fmt": { "len": 8, "max": 155, "min": -100, "add": -100, "unit": "percent" }, "name": "A/F ratio adj"}
   ]},
@@ -252,7 +252,7 @@
   "signals": [
     {"id": "JUKE_MANIFOLD_P_SENS_V", "path": "Battery", "fmt": { "len": 8, "max": 5.1, "div": 50, "unit": "volts" }, "name": "Manifold pressure sensor voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1135"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1135"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_CAM_ADV_ANG", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Camshaft adv angle"}
   ]},
@@ -260,7 +260,7 @@
   "signals": [
     {"id": "JUKE_CAM_ADV_B2", "path": "Engine", "fmt": { "len": 8, "max": 63.5, "min": -64, "div": 2, "add": -64, "unit": "degrees" }, "name": "Intake camshaft advance, bank 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1138"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1138"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_CAM_VLV_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 99.6, "mul": 25, "div": 64, "unit": "percent" }, "name": "Camshaft valve duty"}
   ]},
@@ -276,11 +276,11 @@
   "signals": [
     {"id": "JUKE_FUEL_REMAINING", "path": "Fuel", "fmt": { "len": 8, "max": 255, "unit": "liters" }, "name": "Remaining fuel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1201"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1201"}, "freq": 0.25, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_CURRENT_RPM", "path": "Movement", "fmt": { "len": 16, "max": 819187, "mul": 25, "div": 2, "unit": "rpm" }, "name": "Current engine speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1204"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1204"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_MAF_VOLTS", "path": "Battery", "fmt": { "len": 16, "max": 327, "div": 200, "unit": "volts" }, "name": "Mass air flow volts"}
   ]},
@@ -292,11 +292,11 @@
   "signals": [
     {"id": "JUKE_INJ_PW", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "milliseconds" }, "name": "Injection pulse width"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1208"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1208"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_FUEL_BASE_WIDTH", "path": "Fuel", "fmt": { "len": 16, "max": 31.99, "div": 2048, "unit": "milliseconds" }, "name": "Fuel base pulse width"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1209"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1209"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_MAF", "path": "Engine", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "gramsPerSecond" }, "name": "Mass air flow"}
   ]},
@@ -486,7 +486,7 @@
   "signals": [
     {"id": "JUKE_CVT_DETER", "path": "Transmission", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Transmission fluid deterioration counter", "suggestedMetric": "cvtDeterioration"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "dbg": true, "cmd": {"21": "10"}, "freq": 1,
+{ "hdr": "7E1", "rax": "7E9", "din": "C0", "dout": "81", "cmd": {"21": "10"}, "freq": 1, "dbgfilter": { "to": 2011, "from": 2013 },
   "signals": [
     {"id": "JUKE_TRANS_B",                   "path": "Transmission", "fmt": {            "len": 16, "max": 65535,           "unit": "scalar" }, "name": "Transmission-B"},
     {"id": "JUKE_TRANS_WORK_HOURS",          "path": "Transmission", "fmt": {"bix": 32,  "len": 16, "max": 10922, "div": 6, "unit": "hours"  }, "name": "Transmission work hours"},
