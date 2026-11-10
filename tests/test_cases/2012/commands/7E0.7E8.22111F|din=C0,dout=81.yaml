@@ -16,8 +16,14 @@ test_cases:
     JUKE_VARIABLE_VLV_TIM_OIL_T: 27
   response: 7E80462111F4D
 - expected_values:
+    JUKE_VARIABLE_VLV_TIM_OIL_T: 34
+  response: 7E80462111F54
+- expected_values:
     JUKE_VARIABLE_VLV_TIM_OIL_T: 36
   response: 7E80462111F56
+- expected_values:
+    JUKE_VARIABLE_VLV_TIM_OIL_T: 38
+  response: 7E80462111F58
 - expected_values:
     JUKE_VARIABLE_VLV_TIM_OIL_T: 44
   response: 7E80462111F5E
