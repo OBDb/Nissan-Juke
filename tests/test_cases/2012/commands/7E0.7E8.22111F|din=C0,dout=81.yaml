@@ -7,5 +7,5 @@ test_cases:
     JUKE_VARIABLE_VLV_TIM_OIL_T: 23
   response: 7E80462111F49
 - expected_values:
-    JUKE_VARIABLE_VLV_TIM_OIL_T: 75
-  response: 7E80462111F7D
+    JUKE_VARIABLE_VLV_TIM_OIL_T: 86
+  response: 7E80462111F88
